@@ -1,14 +1,10 @@
 /* rarebird.css */
- 
- body, html{
-     margin: 25px;
-    
+ body,html{
+     margin: auto;
  }
-
+ 
 .container {
     background-color:#33cccc; 
-    position: relative;
-    
 }
     
    
@@ -20,8 +16,8 @@
    margin: 0;
    height: 600px;
    background-size: 100%;
-   background-repeat: repeat;
-   background-position: center top;
+   background-repeat: no-repeat;
+   background-position: center;
    position: relative;
    
   }
@@ -31,7 +27,7 @@ h1 {
     color: #00cc66;
     top: 100%;
     left: 100%;
-    padding: 2cm;
+    padding-top: 1cm;
 }
 
 
@@ -68,32 +64,58 @@ nav a:hover {
     color: #33ccff;
 }
 
+section-first{
+    padding: 25px;
+}
 
-/*Section-First Birdwatching Header Styling"
+
+/*Section-First Birdwatching Header Styling"*/
 
 h2 {
-    text-align: right;
-    color: #e60000;
-            {
+    text-align:center;
+    font-weight: bold;
+}
+
+/*-- Section-Second Birds with their commentary --*/
 
 
-   /* All images were edited to be thumbnails */
+.section-second {
+    
+    display:flex;
+    justify-content:space-between;
+    max-width: 100%;
+    padding:10px;
+    margin:15px;
+}
+
+img resize {
+    
+    border: 1px solid #00e600;
+    border-radius: 2px;
+    padding-left: 1px;
+
+}
+
+article {
+    padding-right: 20px;
+    width: 100%;
+    height:100%;
+    text-align: left;
+    
+}
+
+   /* All images were scaled to the same size */
    
-  img {
- 
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px; 
-    border: 3px solid #00cc66;
-    float: left;
-        }
-        
-
+  
 p {
     line-height: 160%;
-    width:100%;
-    height:140%;
-                }
+    margin:25px;
+    word-wrap: break-word;
+    margin-right: 2cm;
+    font-size:105%;
+    text-align: justify;
+    text-justify: inter-word;
+                    }
             
  .child {
     width: 200px;
