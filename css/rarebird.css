@@ -1,8 +1,8 @@
 /* rarebird.css */
+
  body,html{
      margin: auto;
-     
- }
+}
  
 .container {
     background-color:#33cccc; 
@@ -12,7 +12,6 @@
 /* The owl background image for the index.html page */
  
   #summer-background {
-    
    background-image: url("../images/background/owl.jpg");
    margin: 0;
    height: 600px;
@@ -20,8 +19,7 @@
    background-repeat: no-repeat;
    background-position: center;
    position: relative;
-   
-  }
+}
 
 h1 {
     text-align: center;
@@ -42,7 +40,6 @@ nav ul{
 nav ul li {
     display: inline-block;
     margin-right: 50px;
-    
 }
 
 
@@ -53,7 +50,6 @@ nav a:link {
     background: #00cc66;
     padding: 15px 25px;
     color: #FFF;
-    
 }
 
 nav a:visited {
@@ -81,7 +77,6 @@ h2 {
 
 
 .section-second {
-    
     display:flex;
     justify-content:space-between;
     max-width: 100%;
@@ -90,11 +85,9 @@ h2 {
 }
 
 img resize {
-    
     border: 1px solid #00e600;
     border-radius: 2px;
     padding-left: 1px;
-    
 }
 
 article {
@@ -102,7 +95,6 @@ article {
     width: 100%;
     height:100%;
     text-align: left;
-    
 }
 
    /* All images were scaled to the same size */
@@ -116,23 +108,21 @@ p {
     font-size:105%;
     text-align: justify;
     text-justify: inter-word;
-                    }
+}
             
  .child {
     width: 200px;
     height: 200px;
     float: left;
     position:absolute;
-    
- }
+}
     
 .fixed{
     width: 100px;
     height: 125px;
     position: absolute;
     padding-right: 10px 10px 10px 10px;
-    
-    }
+}
 
 footer {
     text-align: center;
